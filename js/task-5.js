@@ -8,7 +8,9 @@ const changeColor = document.querySelector(".change-color");
 const colorSpan = document.querySelector(".color");
 
 changeColor.addEventListener("click", handleClick);
+
 function handleClick(event) {
+  const newColor = getRandomHexColor();
   document.body.style.backgroundColor = newColor;
   colorSpan.textContent = newColor;
 }

@@ -1,5 +1,5 @@
 const categoriesList = document.querySelector("#categories");
-const liItem = categories.querySelectorAll(".item");
+const liItem = categoriesList.querySelectorAll(".item");
 const quantityLiItem = liItem.length;
 console.log("Number of categories:", quantityLiItem);
 liItem.forEach((element) => {
